@@ -1,0 +1,7 @@
+-- Average relative strength by phase/muscle
+
+SELECT PHASE, MUSCLE_GROUP,
+ROUND(AVG(AVG_RELATIVE_STRENGTH),3) as RELATIVE_STRENGTH
+FROM weekly_workout 
+GROUP BY PHASE, MUSCLE_GROUP
+ORDER BY PHASE;

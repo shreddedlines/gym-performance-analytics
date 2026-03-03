@@ -1,0 +1,6 @@
+-- Avg strength by gym type
+
+SELECT GYM_TYPE,
+ROUND(AVG(AVG_E1RM),2) AS AVERAGE_STRENGTH
+FROM weekly_workout 
+GROUP BY GYM_TYPE;

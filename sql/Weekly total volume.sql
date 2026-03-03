@@ -1,0 +1,7 @@
+-- Weekly total volume
+
+SELECT WEEK,
+SUM(TOTAL_VOLUME) AS WEEKLY_VOLUME
+FROM weekly_workout 
+GROUP BY WEEK
+ORDER BY WEEK;
