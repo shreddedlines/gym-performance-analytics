@@ -1,4 +1,4 @@
-# Workout Performance Analytics
+# Gym Performance Analytics
 
 A data analytics pipeline that transforms raw WhatsApp workout logs into structured performance insights. The project covers the full lifecycle — text extraction, feature engineering, statistical testing, machine learning, SQL analysis, and an interactive Power BI dashboard.
 
